@@ -33,7 +33,7 @@ function Hero() {
             <input type="text" name="" id="" className="  w-[80%] h-full outline-none p-3" value={ogUrl} onChange={(e)=>setUrl(e.target.value)} />
             <button className="flex-grow text-2xl font-bold bg-gray-200 hover:bg-gray-400 hover:text-white" onClick={handleUrl}>Shorten URL</button>
           </div>
-         {ogUrl && <h1 className="text-white">http://localhost:3001/{url}</h1> }
+         {ogUrl && <h1 className="text-white">https://shortyurlshortener.vercel.app/{url}</h1> }
         </div>
       </div>
     </div>
